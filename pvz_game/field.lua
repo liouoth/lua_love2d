@@ -9,7 +9,7 @@ function field_draw(x,y,width,height,list)
     for i=1,6 do
         for j=1,4 do
             love.graphics.rectangle("line",x+80*(i-1),y+80*(j-1),80,80)
-            if(list[i][j].plant ~= nil) then
+            if(list[i][j].plant ~= nil and list[i][j].plant.image ~= nil) then
                 list[i][j].plant:draw()
             end
         end

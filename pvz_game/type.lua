@@ -6,4 +6,5 @@ function Type:new(index,name,image)
     self.index=index
     self.name=name
     self.image=image
+    self.isChoosed = false
 end
