@@ -9,4 +9,3 @@ end
 function Plant:draw()
     love.graphics.print(self.image,self.x,self.y)
 end
-

@@ -2,10 +2,9 @@
 
 Type = Object:extend()
 
-function Type:new(index,name,image,cost)
+function Type:new(index,name,image)
     self.index=index
     self.name=name
     self.image=image
     self.isChoosed = false
-    self.cost=cost
 end

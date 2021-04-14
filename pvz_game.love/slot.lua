@@ -1,10 +1,10 @@
 function slot_initial()
     local list = {}
-    table.insert(list,Type(1,"1 shot","\n    =>  \n   / \\   \n  50",50))
-    table.insert(list,Type(2,"2 shot","\n   ==>  \n   /  \\   \n   100",100))
-    table.insert(list,Type(3,"3 shot","\n   ===>  \n   /   \\   \n   150",150))
-    table.insert(list,Type(4,"stone"," \n   /```\\ \n    \\___/\n     80",80))
-    table.insert(list,Type(5,"stone"," \n  ( O )\n    \\ | /  \n    30",30))
+    table.insert(list,Type(1,"1 shot","\n    =>  \n   / \\   \n  50"))
+    table.insert(list,Type(2,"2 shot","\n   ==>  \n   /  \\   \n   100"))
+    table.insert(list,Type(3,"3 shot","\n   ===>  \n   /   \\   \n   150"))
+    table.insert(list,Type(4,"stone"," \n   /```\\ \n    \\___/\n     80"))
+    table.insert(list,Type(5,"stone"," \n  ( O )\n    \\ | /  \n    30"))
     return list
 end
 
